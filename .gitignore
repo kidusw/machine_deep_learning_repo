@@ -9,3 +9,5 @@ wheels/
 # Virtual environments
 .venv
 .env
+/3.1 UNZIP_ME_FOR_NOTEBOOKS_V4/
+load_files/
