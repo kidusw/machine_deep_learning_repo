@@ -23,52 +23,59 @@ machine_deep_learning/
 ## Topics Covered
 
 ### Linear Regression (`linear_regression/`)
-| Notebook | Description |
-|---|---|
-| `lr1.ipynb` | Basic linear regression on economic data (interest rate vs. unemployment) |
-| `poly1.ipynb` | Polynomial regression (degree 2) on advertising data |
-| `poly2.ipynb` | Comparing polynomial degrees 1–9; identifying overfitting via train/test RMSE |
-| `reg.ipynb` | Ridge, Lasso, and ElasticNet with varying alpha values |
-| `regularization.ipynb` | ElasticNet with `StandardScaler`; compares all three regularization methods |
-| `grid_cv.ipynb` | `GridSearchCV` on AMES housing dataset (274 features) |
-| `grid_cv2.ipynb` | GridSearch on preprocessed AMES data with 10% test split |
-| `mlrl1.ipynb` | California housing dataset; model persistence with `pickle` and `joblib` |
-| `np_pd.ipynb` | NumPy and Pandas fundamentals (arrays, DataFrames, groupby) |
-| `missing_values.ipynb` | Handling missing data in the AMES housing dataset |
-| `hotel_booking.ipynb` | Exploratory analysis of 119K hotel bookings |
+
+| Notebook               | Description                                                                   |
+| ---------------------- | ----------------------------------------------------------------------------- |
+| `lr1.ipynb`            | Basic linear regression on economic data (interest rate vs. unemployment)     |
+| `poly1.ipynb`          | Polynomial regression (degree 2) on advertising data                          |
+| `poly2.ipynb`          | Comparing polynomial degrees 1–9; identifying overfitting via train/test RMSE |
+| `reg.ipynb`            | Ridge, Lasso, and ElasticNet with varying alpha values                        |
+| `regularization.ipynb` | ElasticNet with `StandardScaler`; compares all three regularization methods   |
+| `grid_cv.ipynb`        | `GridSearchCV` on AMES housing dataset (274 features)                         |
+| `grid_cv2.ipynb`       | GridSearch on preprocessed AMES data with 10% test split                      |
+| `mlrl1.ipynb`          | California housing dataset; model persistence with `pickle` and `joblib`      |
+| `np_pd.ipynb`          | NumPy and Pandas fundamentals (arrays, DataFrames, groupby)                   |
+| `missing_values.ipynb` | Handling missing data in the AMES housing dataset                             |
+| `hotel_booking.ipynb`  | Exploratory analysis of 119K hotel bookings                                   |
 
 ### Logistic Regression (`logistic/`)
-| Notebook | Description |
-|---|---|
+
+| Notebook     | Description                                                                                |
+| ------------ | ------------------------------------------------------------------------------------------ |
 | `log1.ipynb` | Binary classification on hearing test data; confusion matrix, ROC, precision-recall curves |
-| `log2.ipynb` | Multi-class classification on iris dataset; `GridSearchCV` over C and penalty |
+| `log2.ipynb` | Multi-class classification on iris dataset; `GridSearchCV` over C and penalty              |
 
 ### K-Nearest Neighbors (`knn/`)
-| Notebook | Description |
-|---|---|
+
+| Notebook    | Description                                                                        |
+| ----------- | ---------------------------------------------------------------------------------- |
 | `knn.ipynb` | Gene expression cancer classification; Pipeline + `GridSearchCV` to find optimal k |
 
 ### Support Vector Machines (`svm/`)
-| Notebook | Description |
-|---|---|
+
+| Notebook                   | Description                                                               |
+| -------------------------- | ------------------------------------------------------------------------- |
 | `svm_classification.ipynb` | SVM with linear, RBF, sigmoid, and polynomial kernels on viral study data |
-| `svm_regression.ipynb` | SVR for cement compressive strength; GridSearch cuts MAE from 5.24 → 2.51 |
-| `svm_margin_plot.py` | Utility for visualizing SVM decision boundaries and support vectors |
+| `svm_regression.ipynb`     | SVR for cement compressive strength; GridSearch cuts MAE from 5.24 → 2.51 |
+| `svm_margin_plot.py`       | Utility for visualizing SVM decision boundaries and support vectors       |
 
 ### Decision Trees & Ensemble Methods (`decision_trees/`)
-| Notebook | Description |
-|---|---|
-| `dsc.ipynb` | Decision tree classifier on Palmer penguins; feature importances and pruning |
+
+| Notebook              | Description                                                                                     |
+| --------------------- | ----------------------------------------------------------------------------------------------- |
+| `dsc.ipynb`           | Decision tree classifier on Palmer penguins; feature importances and pruning                    |
 | `random_forest.ipynb` | Random forest on penguins and banknote authentication; 240-combination GridSearch, 99% accuracy |
 
 ### Deep Learning — PyTorch (`pytorch/`)
-| Notebook | Description |
-|---|---|
+
+| Notebook                 | Description                                                                                        |
+| ------------------------ | -------------------------------------------------------------------------------------------------- |
 | `torch_regression.ipynb` | Linear regression with `nn.Parameter` and `nn.Linear`; GPU training via CUDA; model saving/loading |
 
 ### Visualization (`matlib/`)
-| Notebook | Description |
-|---|---|
+
+| Notebook     | Description                                                   |
+| ------------ | ------------------------------------------------------------- |
 | `mat1.ipynb` | Matplotlib basics: line plots, log scale, E=mc² visualization |
 
 ## Datasets Used
